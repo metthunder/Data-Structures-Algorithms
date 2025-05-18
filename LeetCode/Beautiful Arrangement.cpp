@@ -1,5 +1,6 @@
 class Solution {
 public:
+    
     void backtrack(int& ans, int n, vector<int>& nums, vector<int>& temp, vector<int>& visited){
         if(temp.size() == n){
             ans++;
